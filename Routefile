@@ -1,0 +1,157 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+hosted_zone "kter.jp." do
+  rrset "kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.197.61.124"
+    )
+  end
+
+  rrset "kter.jp.", "MX" do
+    ttl 300
+    resource_records(
+      "10 mail.kter.jp."
+    )
+  end
+
+  rrset "kter.jp.", "SPF" do
+    ttl 300
+    resource_records(
+      "\"v=spf1 ip4:52.32.211.181 ~all\""
+    )
+  end
+
+  rrset "blog.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.197.61.124"
+    )
+  end
+
+  rrset "stg.blog.kter.jp.", "A" do
+    dns_name "s3-website-ap-northeast-1.amazonaws.com."
+  end
+
+  rrset "hatsune.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "52.199.167.200"
+    )
+  end
+
+  rrset "httpd.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "139.59.229.189"
+    )
+  end
+
+  rrset "img.kter.jp.", "A" do
+    dns_name "d39uwfrbw303jt.cloudfront.net."
+  end
+
+  rrset "img.kter.jp.", "MX" do
+    ttl 300
+    resource_records(
+      "10 mail.kter.jp."
+    )
+  end
+
+  rrset "k8stest.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.197.33.177"
+    )
+  end
+
+  rrset "mail.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "52.32.211.181"
+    )
+  end
+
+  rrset "mail1.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "52.196.104.115"
+    )
+  end
+
+  rrset "mail2.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "52.198.177.50"
+    )
+  end
+
+  rrset "mail3.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "52.199.247.33"
+    )
+  end
+
+  rrset "mail4.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "52.199.26.167"
+    )
+  end
+
+  rrset "revoke.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "128.199.219.220"
+    )
+  end
+
+  rrset "ssltest.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "128.199.230.16"
+    )
+  end
+
+  rrset "wallet.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.197.61.124"
+    )
+  end
+
+  rrset "ystk.kter.jp.", "A" do
+    dns_name "dx24tlhclnsur.cloudfront.net."
+  end
+
+  rrset "ystk.kter.jp.", "MX" do
+    ttl 300
+    resource_records(
+      "10 mail.kter.jp."
+    )
+  end
+
+  rrset "zabbix.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.185.249.29"
+    )
+  end
+end
+
+hosted_zone "ttakahashi.space." do
+  rrset "ttakahashi.space.", "MX" do
+    ttl 300
+    resource_records(
+      "10 mail.ttakahashi.space."
+    )
+  end
+
+  rrset "mail.ttakahashi.space.", "A" do
+    ttl 300
+    resource_records(
+      "52.32.211.181"
+    )
+  end
+end
