@@ -29,21 +29,10 @@ hosted_zone "kter.jp." do
     )
   end
 
-  rrset "stg.blog.kter.jp.", "A" do
-    dns_name "s3-website-ap-northeast-1.amazonaws.com."
-  end
-
   rrset "hatsune.kter.jp.", "A" do
     ttl 300
     resource_records(
       "52.199.167.200"
-    )
-  end
-
-  rrset "httpd.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "139.59.229.189"
     )
   end
 
@@ -69,48 +58,6 @@ hosted_zone "kter.jp." do
     ttl 300
     resource_records(
       "52.32.211.181"
-    )
-  end
-
-  rrset "mail1.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "52.196.104.115"
-    )
-  end
-
-  rrset "mail2.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "52.198.177.50"
-    )
-  end
-
-  rrset "mail3.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "52.199.247.33"
-    )
-  end
-
-  rrset "mail4.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "52.199.26.167"
-    )
-  end
-
-  rrset "revoke.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "128.199.219.220"
-    )
-  end
-
-  rrset "ssltest.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "128.199.230.16"
     )
   end
 
