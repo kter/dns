@@ -29,6 +29,13 @@ hosted_zone "kter.jp." do
     )
   end
 
+  rrset "prometheus.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.197.61.124"
+    )
+  end
+
   rrset "hatsune.kter.jp.", "A" do
     ttl 300
     resource_records(
