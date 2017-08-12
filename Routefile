@@ -32,7 +32,7 @@ hosted_zone "kter.jp." do
   rrset "prometheus.kter.jp.", "A" do
     ttl 300
     resource_records(
-      "35.197.61.124"
+      "35.190.93.253"
     )
   end
 
