@@ -92,6 +92,13 @@ hosted_zone "kter.jp." do
       "35.185.249.29"
     )
   end
+
+  rrset "jenkins.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "45.76.13.237"
+    )
+  end
 end
 
 hosted_zone "ttakahashi.space." do
