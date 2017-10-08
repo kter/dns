@@ -106,6 +106,14 @@ hosted_zone "kter.jp." do
       "45.76.13.237"
     )
   end
+
+  rrset "wallet2.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.190.28.58"
+    )
+  end
+
 end
 
 hosted_zone "ttakahashi.space." do
