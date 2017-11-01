@@ -29,38 +29,6 @@ hosted_zone "kter.jp." do
     )
   end
 
-  rrset "prometheus.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "35.201.119.223"
-    )
-  end
-
-  rrset "hatsune.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "52.199.167.200"
-    )
-  end
-
-  rrset "img.kter.jp.", "A" do
-    dns_name "d39uwfrbw303jt.cloudfront.net."
-  end
-
-  rrset "img.kter.jp.", "MX" do
-    ttl 300
-    resource_records(
-      "10 mail.kter.jp."
-    )
-  end
-
-  rrset "k8stest.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "35.197.33.177"
-    )
-  end
-
   rrset "mail.kter.jp.", "A" do
     ttl 300
     resource_records(
@@ -68,28 +36,10 @@ hosted_zone "kter.jp." do
     )
   end
 
-  rrset "mail-stg.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "45.77.118.169"
-    )
-  end
-
   rrset "wallet.kter.jp.", "A" do
     ttl 300
     resource_records(
       "45.77.118.169"
-    )
-  end
-
-  rrset "ystk.kter.jp.", "A" do
-    dns_name "dx24tlhclnsur.cloudfront.net."
-  end
-
-  rrset "ystk.kter.jp.", "MX" do
-    ttl 300
-    resource_records(
-      "10 mail.kter.jp."
     )
   end
 
@@ -104,13 +54,6 @@ hosted_zone "kter.jp." do
     ttl 300
     resource_records(
       "45.77.118.169"
-    )
-  end
-
-  rrset "wallet2.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "35.190.28.58"
     )
   end
 
