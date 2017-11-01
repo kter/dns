@@ -70,7 +70,7 @@ hosted_zone "ttakahashi.space." do
   rrset "mail.ttakahashi.space.", "A" do
     ttl 300
     resource_records(
-      "52.32.211.181"
+      "108.61.180.213"
     )
   end
 end
