@@ -60,6 +60,13 @@ hosted_zone "kter.jp." do
 end
 
 hosted_zone "ttakahashi.space." do
+  rrset "ttakahashi.space.", "A" do
+    ttl 300
+    resource_records(
+      "108.61.180.213"
+    )
+  end
+
   rrset "ttakahashi.space.", "MX" do
     ttl 300
     resource_records(
