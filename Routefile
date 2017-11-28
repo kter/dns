@@ -4,7 +4,7 @@ hosted_zone "kter.jp." do
   rrset "kter.jp.", "A" do
     ttl 300
     resource_records(
-      "108.61.180.213"
+      "45.77.18.209"
     )
   end
 
@@ -47,7 +47,7 @@ hosted_zone "kter.jp." do
   rrset "wallet.kter.jp.", "A" do
     ttl 300
     resource_records(
-      "108.61.180.213"
+      "45.77.18.209"
     )
   end
 
@@ -61,7 +61,7 @@ hosted_zone "kter.jp." do
   rrset "jenkins.kter.jp.", "A" do
     ttl 300
     resource_records(
-      "108.61.180.213"
+      "45.77.18.209"
     )
   end
 
