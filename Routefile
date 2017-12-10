@@ -43,6 +43,13 @@ hosted_zone "kter.jp." do
     )
   end
 
+  rrset "grafana.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "45.77.18.209"
+    )
+  end
+
 end
 
 hosted_zone "ttakahashi.space." do
