@@ -22,32 +22,10 @@ hosted_zone "kter.jp." do
     )
   end
 
-  rrset "blog.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "35.201.119.223"
-    )
-  end
-
-  rrset "test.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "45.76.103.108",
-      "45.77.14.127"
-    )
-  end
-
   rrset "mail.kter.jp.", "A" do
     ttl 300
     resource_records(
       "52.32.211.181"
-    )
-  end
-
-  rrset "wallet.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "45.77.18.209"
     )
   end
 
