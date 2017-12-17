@@ -4,7 +4,9 @@ hosted_zone "kter.jp." do
   rrset "kter.jp.", "A" do
     ttl 300
     resource_records(
-      "35.203.165.93"
+      "35.197.110.103",
+      "35.203.165.93",
+      "35.227.150.145"
     )
   end
 
@@ -33,20 +35,6 @@ hosted_zone "kter.jp." do
     ttl 300
     resource_records(
       "35.185.249.29"
-    )
-  end
-
-  rrset "jenkins.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "35.203.165.93"
-    )
-  end
-
-  rrset "grafana.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "35.203.165.93"
     )
   end
 
