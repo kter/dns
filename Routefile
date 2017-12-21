@@ -4,7 +4,7 @@ hosted_zone "kter.jp." do
   rrset "kter.jp.", "A" do
     ttl 300
     resource_records(
-      "35.199.168.25"
+      "35.227.151.77"
     )
   end
 
