@@ -35,7 +35,13 @@ hosted_zone "kter.jp." do
       "35.185.249.29"
     )
   end
-
+  
+  rrset "prometheus.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.227.151.77"
+    )
+  end
 end
 
 hosted_zone "ttakahashi.space." do
