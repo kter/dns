@@ -78,4 +78,18 @@ hosted_zone "ttakahashi.space." do
       "159.89.195.229"
     )
   end
+  
+  rrset "ttakahashi.space.", "SPF" do
+    ttl 300
+    resource_records(
+      "v=spf1 ip4:159.89.195.229 ~all"
+    )
+  end
+
+  rrset "ttakahashi.space.", "TXT" do
+    ttl 300
+    resource_records(
+      "v=spf1 ip4:159.89.195.229 ~all"
+    )
+  end
 end
