@@ -92,4 +92,11 @@ hosted_zone "ttakahashi.space." do
       '"v=spf1 ip4:159.65.14.200 ~all"'
     )
   end
+
+  rrset "mail.ttakahashi.space.", "PTR" do
+    ttl 300
+    resource_records(
+      "200.14.65.159.in-addr.arpa."
+    )
+  end
 end
