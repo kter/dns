@@ -93,7 +93,7 @@ hosted_zone "ttakahashi.space." do
     )
   end
 
-  rrset "ttakahashi.space.", "PTR" do
+  rrset "mail.ttakahashi.space.", "PTR" do
     ttl 300
     resource_records(
       "200.14.65.159.in-addr.arpa."
