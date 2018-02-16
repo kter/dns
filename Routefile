@@ -62,6 +62,7 @@ hosted_zone "kter.jp." do
     resource_records(
       "35.192.142.227"
     )
+  end
 
   rrset "gke.kter.jp.", "A" do
     ttl 300
