@@ -7,12 +7,6 @@ hosted_zone "kter.jp." do
       "35.202.72.221"
     )
   end
-  rrset "blog.kter.jp.", "A" do
-    ttl 300
-    resource_records(
-      "35.227.174.1"
-    )
-  end
 
   rrset "kter.jp.", "MX" do
     ttl 300
@@ -57,46 +51,3 @@ hosted_zone "kter.jp." do
   end
 end
 
-hosted_zone "ttakahashi.space." do
-  rrset "ttakahashi.space.", "A" do
-    ttl 300
-    resource_records(
-      "159.65.14.200"
-    )
-  end
-
-  rrset "ttakahashi.space.", "MX" do
-    ttl 300
-    resource_records(
-      "10 mail.ttakahashi.space."
-    )
-  end
-
-  rrset "mail.ttakahashi.space.", "A" do
-    ttl 300
-    resource_records(
-      "159.65.14.200"
-    )
-  end
-  
-  rrset "ttakahashi.space.", "SPF" do
-    ttl 300
-    resource_records(
-      '"v=spf1 ip4:159.65.14.200 ~all"'
-    )
-  end
-
-  rrset "ttakahashi.space.", "TXT" do
-    ttl 300
-    resource_records(
-      '"v=spf1 ip4:159.65.14.200 ~all"'
-    )
-  end
-
-  rrset "mail.ttakahashi.space.", "PTR" do
-    ttl 300
-    resource_records(
-      "200.14.65.159.in-addr.arpa."
-    )
-  end
-end
