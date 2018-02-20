@@ -53,21 +53,21 @@ hosted_zone "kter.jp." do
   rrset "gke-prometheus.kter.jp.", "A" do
     ttl 300
     resource_records(
-      "35.188.178.254"
+      "104.154.134.102"
     )
   end
   
   rrset "gke-grafana.kter.jp.", "A" do
     ttl 300
     resource_records(
-      "35.188.178.254"
+      "104.154.134.102"
     )
   end
 
   rrset "gke.kter.jp.", "A" do
     ttl 300
     resource_records(
-      "35.188.178.254"
+      "104.154.134.102"
     )
   end
 end
