@@ -4,7 +4,7 @@ hosted_zone "kter.jp." do
   rrset "kter.jp.", "A" do
     ttl 300
     resource_records(
-      "35.202.72.221"
+      "35.225.200.69"
     )
   end
 
@@ -39,14 +39,14 @@ hosted_zone "kter.jp." do
   rrset "prometheus.kter.jp.", "A" do
     ttl 300
     resource_records(
-      "35.202.72.221"
+      "35.225.200.69"
     )
   end
   
   rrset "grafana.kter.jp.", "A" do
     ttl 300
     resource_records(
-      "35.202.72.221"
+      "35.225.200.69"
     )
   end
   
