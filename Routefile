@@ -8,6 +8,13 @@ hosted_zone "kter.jp." do
     )
   end
 
+  rrset "stg.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.225.200.69"
+    )
+  end
+
   rrset "kter.jp.", "MX" do
     ttl 300
     resource_records(
