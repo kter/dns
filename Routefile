@@ -77,5 +77,33 @@ hosted_zone "kter.jp." do
       "35.225.7.57"
     )
   end
+  
+  rrset "ns1.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.225.200.69"
+    )
+  end
+  
+  rrset "ns2.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.225.200.69"
+    )
+  end
+  
+  rrset "ns3.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.225.200.69"
+    )
+  end
+  
+  rrset "ns4.kter.jp.", "A" do
+    ttl 300
+    resource_records(
+      "35.225.200.69"
+    )
+  end
 end
 
